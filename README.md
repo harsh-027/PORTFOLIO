@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="pf.png" />
+  <img src="./src/assets/images/pf.png" alt="GHBanner" width="1200" />
 </div>
 Harshit Srivastava – Portfolio
 
