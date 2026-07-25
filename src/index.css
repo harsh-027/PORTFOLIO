@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-rajdhani {
+    font-family: 'Rajdhani', Arial, sans-serif;
+  }
+  .font-waterfall {
+    font-family: 'Waterfall', cursive;
+  }
+  .font-alex-brush {
+    font-family: 'Alex Brush', cursive;
+  }
+  .font-great-vibes {
+    font-family: 'Great Vibes', cursive;
+  }
+  .font-mono-plex {
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  
+  .card-inset-glow {
+    box-shadow: inset 0 1px 10px rgba(255, 255, 255, 0.10);
+  }
+  
+  .glass-overlay {
+    background: rgba(0, 0, 0, 0.78);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+
+  .animate-marquee {
+    animation: marquee 25s linear infinite;
+    will-change: transform;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-33.333%);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
