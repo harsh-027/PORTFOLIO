@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { SectionFrame } from '../ui/SectionFrame';
 import { ArrowUpRight } from 'lucide-react';
-import skillflowImg from '../../assets/images/skillflow_project_1784958692586.jpg';
+import skillflowImg from '../../assets/images/skillflow.png';
 import currentxImg from '../../assets/images/currentx_project_1784958705222.jpg';
 
 interface Project {
