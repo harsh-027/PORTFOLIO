@@ -24,5 +24,5 @@ npm run dev
 
 ## 🌐 Live Demo
 
-https://your-portfolio-link.vercel.app
+https://portfolio-sage-nine-3nthvpharo.vercel.app/
 
