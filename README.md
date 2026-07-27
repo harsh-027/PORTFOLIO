@@ -11,7 +11,7 @@ A modern and responsive developer portfolio built with **React**, **TypeScript**
 - TypeScript
 - Vite
 - CSS
-- Framer Motion
+
 
 ## 📦 Installation
 
