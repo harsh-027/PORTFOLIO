@@ -20,7 +20,7 @@ git clone https://github.com/harsh-027/PORTFOLIO.git
 cd PORTFOLIO
 npm install
 npm run dev
-```
+
 
 ## 🌐 Live Demo
 
